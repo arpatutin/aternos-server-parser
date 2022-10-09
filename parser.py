@@ -70,13 +70,13 @@ for q in words:
         server = JavaServer.lookup(f"{ q }.aternos.me")
         status = server.status()
         if "This server is offline." not in status.description and "not found" not in status.description:
-            log(f"#{ q } !FOUND! { status.description }", True)
+            log(f"{ q }.aternos.me", True)
             print(colorama.Fore.LIGHTGREEN_EX)
             print(f"#{ q } !FOUND! { status.description }")
             successful += 1
             print(colorama.Fore.WHITE)
         elif "offline" in status.description:
-            log(f"#{q}. offline.", False)
+            log(f"{q}.aternos.me", False)
             print(f"#{q}. offline.")
             offline += 1
         else:
