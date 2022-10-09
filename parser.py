@@ -32,7 +32,16 @@ if prepare:
     i = 0
     while i < len(words):
         if "'" in words[i] or \
-            '&' in words[i]:
+            '&' in words[i] or \
+            '!' in words[i] or \
+            '@' in words[i] or \
+            '#' in words[i] or \
+            '$' in words[i] or \
+            '%' in words[i] or \
+            '^' in words[i] or \
+            '*' in words[i] or \
+            '(' in words[i] or \
+            ')' in words[i]:
             del words[i]
             i -= 1
         i += 1
