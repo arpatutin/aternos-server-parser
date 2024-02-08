@@ -2,7 +2,7 @@
 
 This is a Python script that can parse some minecraft servers hosted on Aternos. It takes servername variants from wordlist file, adds _".aternos.me"_ and checks if server this server exist. **This version works only for Java**.
 
-## Preparing
+## Preparation
 
 - Clone this repo to your machine:
     ```sh
