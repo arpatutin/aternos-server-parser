@@ -31,8 +31,8 @@ python parser.py [--no-prepare] [--no-shuffle]
 > First file is _online.txt_, there you can see servers that are started at the moment that script made request to ping it.
 > Second file is _offline.txt_, it should contain servers that ain't working at the moment, but exist on aternos.
 
-> If parser will test all the names from your wordlist, it'll stop automatically.
->You can also stop it using Ctrl+C ot other interrupt signal.
+> If the parser tests all the names from your wordlist, it'll stop automatically.
+> You can also stop it using Ctrl+C ot other interruption signal.
 
 ## Collaboration
 
